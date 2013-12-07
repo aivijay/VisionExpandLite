@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expanderRow1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <!--
+    <Button
+        android:id="@+id/digit1R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit2R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit3R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit3R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit3R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit3R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit3R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+
+    <Button
+        android:id="@+id/digit3R1"
+        style="@style/ButtonText"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_green"
+        android:drawablePadding="2dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" />
+    -->
+
+</LinearLayout>

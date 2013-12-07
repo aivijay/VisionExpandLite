@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnDrillA"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_red"
+        android:onClick="onClickDrillA"
+        android:padding="10dip"
+        android:text="@string/drillA" />
+
+    <Button
+        android:id="@+id/btnDrillB"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:onClick="onClickDrillB"
+        android:text="@string/drillB" />
+
+    <Button
+        android:id="@+id/btnDrillC"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_green"
+        android:onClick="onClickDrillC"
+        android:text="@string/drillC" />
+
+    <Button
+        android:id="@+id/btnDrillD"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_purple"
+        android:onClick="onClickDrillD"
+        android:text="@string/drillD" />
+
+    <Button
+        android:id="@+id/btnDrillE"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_orange"
+        android:onClick="onClickDrillE"
+        android:text="@string/drillE" />
+
+    <Button
+        android:id="@+id/btnDrillsHelp"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_black"
+        android:onClick="onClickDrillsHelp"
+        android:text="@string/drillHelpBut" />
+
+</LinearLayout>

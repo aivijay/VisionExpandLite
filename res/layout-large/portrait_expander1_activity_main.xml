@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Parent Layout With Vertical Orientation -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical" >
+
+        <!--
+    <TextView
+        android:id="@+id/statusText"
+        style=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="2dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:paddingTop="10dip"
+        android:text="" />
+        -->
+
+        <include layout="@layout/portrait_expander1_row1" />
+
+        <include layout="@layout/portrait_expander1_row2" />
+
+        <include layout="@layout/portrait_expander1_numberpad" />
+    </LinearLayout>
+
+    <com.google.ads.AdView
+        xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adViewSmartforExpander1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        googleads:adSize="SMART_BANNER"
+        googleads:adUnitId="@string/admob_id" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    <PreferenceCategory android:title="@string/pref_user_profile" >
+        <EditTextPreference
+                android:title="@string/pref_user_name"
+                android:summary="@string/pref_user_name_summary"
+                android:key="prefUsername"/>
+    </PreferenceCategory>
+    -->
+
+    <PreferenceCategory
+        android:textSize="18sp"
+        android:title="@string/settingsExplorerTitle">
+
+        <!-- Font Size is fixed, no preferences -->
+        <!--
+        <ListPreference
+            android:key="prefFontSize"
+            android:entries="@array/fontSize"
+            android:summary="@string/pref_font_size_summary"
+            android:entryValues="@array/fontSizeValues"
+            android:title="@string/pref_font_size" />
+        -->
+
+        <ListPreference
+            android:entries="@array/charactersCount"
+            android:entryValues="@array/charactersCountValues"
+            android:key="prefCharactersCount"
+            android:summary="@string/pref_characters_count_summary"
+            android:textSize="14sp"
+            android:title="@string/pref_characters_count" />
+        <ListPreference
+            android:entries="@array/rowsCount"
+            android:entryValues="@array/rowsCountValues"
+            android:key="prefRowsCount"
+            android:summary="@string/pref_rows_count_summary"
+            android:title="@string/pref_rows_count" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settingsChallengerTitle" >
+        <ListPreference
+            android:entries="@array/pairDigitsCount"
+            android:entryValues="@array/pairDigitsCountValues"
+            android:key="prefPairDigitsCount"
+            android:summary="@string/pref_pair_digits_count_summary"
+            android:title="@string/pref_pair_digits_count" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settingsCommonTitle" >
+        <ListPreference
+            android:entries="@array/flashPeriod"
+            android:entryValues="@array/flashPeriodValues"
+            android:key="prefFlashPeriod"
+            android:summary="@string/pref_flash_period_summary"
+            android:title="@string/pref_flash_period" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

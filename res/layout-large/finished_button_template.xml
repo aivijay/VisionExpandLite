@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/finishedButton"
+    style="@style/ButtonText"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_green"
+    android:drawablePadding="2dip"
+    android:paddingLeft="40dip"
+    android:paddingRight="40dip"
+    android:text="@string/finished" />

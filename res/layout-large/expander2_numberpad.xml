@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:columnCount="3"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/npNum1"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/npNum2"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum2"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/npNum3"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum3"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/npNum4"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum4"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/npNum5"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum5"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/npNum6"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum6"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/npNum7"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum7"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/npNum8"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum8"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/npNum9"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum9"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/npNum0"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickNum0"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/npBackSpace"
+        style="@style/NumPadText"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/numpad_button"
+        android:onClick="onClickBackSpace"
+        android:text="@string/backspace" />
+
+</GridLayout>

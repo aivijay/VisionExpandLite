@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="textContentDefaultFontSize">24</string>
+    <string name="portraitDataElementWidth">72</string>
+    <string name="portraitDataElementHeight">70</string>
+    <string name="portraitDataTextSize">40</string>
+    <string name="landscapeChallengerDataElementWidth">90</string>
+    <string name="landscapeChallengerDataElementHeight">66</string>
+    <string name="landscapeChallengerDataTextSize">50</string>
+    <string name="landscapeExplorerDataElementWidth">110</string>
+    <string name="landscapeExplorerDataElementHeight">66</string>
+    <string name="landscapeExplorerDataTextSize">50</string>
+    <string name="scoreMessageTextSize">30</string>
+
+</resources>

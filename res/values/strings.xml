@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vision Expand</string>
+    <string name="veAppType">Lite</string>
+    <string name="admob_id">ca-app-pub-2608575944155753/1608124029</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello World</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="complete_message">Completed</string>
+    <string name="title_activity_vision_test_one_complete_message">Explorer completed</string>
+    <string name="title_activity_vision_test_two_complete_message">Challenger completed</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_font_name">Font</string>
+    <string name="pref_font_name_summary">Set the font name</string>
+    <string name="pref_font_size">Font Size</string>
+    <string name="pref_font_size_summary">Set the font size</string>
+    <string name="pref_flash_period">Flash Period</string>
+    <string name="pref_flash_period_summary">Set the text flash period</string>
+    <string name="pref_characters_count">Display Characters</string>
+    <string name="pref_characters_count_summary">Set the number of characters to display</string>
+    <string name="pref_pair_digits_count">Display Digits</string>
+    <string name="pref_pair_digits_count_summary">Set the number of digits to display in the pair</string>
+    <string name="pref_rows_count">Display Rows</string>
+    <string name="pref_rows_count_summary">Set the number of rows to display</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    <string name="pref_user_profile">VisionExpand Settings</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="title_activity_main">Vision Expand</string>
+    <string name="training">Explorer</string>
+    <string name="training2">Challenger</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="check">Check</string>
+    <string name="infoOnResultsPage">Your performance is</string>
+    <string name="tryAgain">Try Again!</string>
+    <string name="finished">Finished</string>
+    <string name="veCapTitle">VISION EXPAND</string>
+    <string name="slogan">Improve Peripheral Vision</string>
+    <string name="title_activity_help">Help</string>
+    <string name="drills">Drills</string>
+    <string name="drillA">Drill A</string>
+    <string name="drillB">Drill B</string>
+    <string name="drillC">Drill C</string>
+    <string name="drillD">Drill D</string>
+    <string name="drillE">Drill E</string>
+    <string name="drillHelpBut">Help</string>
+    <string name="trainingStart">Start</string>
+    <string name="help_page1">
+<![CDATA[
+			<b>Vision Expand Help</b><br/><br/>
+			<div style="text-align:justify; text-justify:inter-word; vertical-align: top;">
+               Vision Expand is a peripheral vision enhancement exercise. By improving peripheral 
+               vision your reading speed and detail perception should improve. Good peripheral vision 
+               is not only helpful at increasing reading speed but is useful for safer driving of a motor vehicle.<br/><br/>
+
+               The exercise may be adjusted to start from your acceptable vision width and slowly 
+               increase the characters displayed to gradually increase peripheral span from 3 to 8 
+               characters. The flash rate may also be adjusted to allow for a varied length of viewable time. <br/><br/>
+               
+               To get the most from the exercise you should view the text from the center and attempt to 
+               see all the numerals. With time you should be able to see more characters accurately at a 
+               greater expanse. There may be some eye strain to begin with; this will improve as the eyes 
+               become more capable to see a wider field of vision. <br/><br/>
+               
+               Remember to relax and not strain or force improvement too rapidly. It is natural to make mistakes 
+               attempting to recall what you saw, this is the purpose of the exercise to improve and have a successful outcome.
+			</div>
+		]]>
+    </string>
+    <string name="help_page2">
+<![CDATA[
+			<b>Vision Expand Help</b><br/><br/>
+			You can configure the following by accessing Settings from the main screen or through the menu button.
+			<br/><br/>
+			<b>Flash period:</b><br/>
+			Period for displaying content<br/><br/>
+			<b>Display Characters:</b><br/>
+			Number of Charactes to be displayed<br/><br/>
+			<b>Display Rows:</b><br/>
+			Rows of characters that will be displayed<br/><br/>
+			<b>Display Digits:</b><br/>
+			Number of digits that will be presented on the Challenger exercise. Each number in the pair will have the specific number of digits.
+		]]>
+    </string>
+    <string name="help_faq">
+<![CDATA[
+			<b>Frequently Asked Questions (FAQs)</b><br/><br/>
+			<div style="text-align:justify; text-justify:inter-word;">
+					<b>What is Flash period?</b> 
+					<br/>
+					Flash period is the time period the information will be flashed on the screen. It is represented as seconds or milliseconds in Vision Expand.
+					Milliseconds is one thousandth of a second. So if you select lower milliseconds the time period the information is shown will be very short.
+
+					<br/><br/>
+					<b>Can I configure more than one row in Challenger?</b>
+					<br/>
+					No. You cannot configure. Challenger only allows one row of information.
+
+					<br/><br/>
+					<b>How can I view more wider text?</b>
+					<br/>
+					If you tilt to landscape mode, the information width will increase thus giving you a more wider area to practice your exercises. 
+					This will help you expand your peripheral vision quite wider enough to read a whole line of text in a novel in one fixation when properly practiced.
+					
+					<br/><br/>
+					<b>How do I know whether the answer entered was correct or incorrect?</b>
+					<br/>
+					When you enter the correct answer, the <font color="#C8EFFA"><b>blue</b></font> bar where the information is displayed will flash <font color="#B9FACA"><b>green</b></font> and then flash the next practice information.
+					If its an incorrect answer, then it will flash <font color="#FCB8B8"><b>red</b></font> instead of green.			
+			</div>			
+		]]>
+    </string>
+    <string name="training1HelpContent">
+<![CDATA[
+			<div style="text-align:justify; text-justify:inter-word;">
+               This level may be adjusted from 3 to 8 digits, allowing you to exercise your 
+               vision span by flashing the numerals on the screen which you must remember and 
+               enter correctly. As you improve you will be able to view more characters at the 
+               same time and decrease the flash time as well. This helps improve your peripheral 
+               vision gradually so you may view more information to help improve your focus and 
+               reading speed. As you advance you may also configure the numerals to two rows. 
+               Once you start, wait for the numbers to be flashed, remember them and enter. 
+               If you have entered correctly the numeral background will flash green if incorrectly 
+               it will flash red.
+			</div>
+		]]>
+    </string>
+    <string name="training2HelpContent">
+<![CDATA[
+			<div style="text-align:justify; text-justify:inter-word; vertical-align: top;">
+               This exercise level may be adjusted to 2 or 3 pairs of flashing numerals which will 
+               expand according to the correct responses; increasing peripheral vision and focus. 
+               Repeated incorrect entries will cause the pairs to contract to a shorter distance until 
+               you are able to enter correctly at the expanded width.
+			</div>
+		]]>
+    </string>
+    <string name="title_activity_drills">Drills</string>
+    <string name="title_activity_drill_a">Drill A</string>
+    <string name="title_activity_drill_b">Drill B</string>
+    <string name="title_activity_drill_c">Drill C</string>
+    <string name="title_activity_drill_d">Drill D</string>
+    <string name="title_activity_drill_e">Drill E</string>
+    <string name="title_activity_expander1_main">Expander1MainActivity</string>
+    <string name="expander_one_title">Explorer</string>
+    <string name="expander_two_title">Challenger</string>
+    <string name="backspace">&lt;</string>
+    <string name="expanderOneTitle">Explorer</string>
+    <string name="expanderTwoTitle">Challenger</string>
+    <string name="numPadOkString">OK</string>
+    <string name="title_activity_training_select">TrainingSelectActivity</string>
+    <string name="title_activity_training1_main">Explorer</string>
+    <string name="title_activity_training2_main">Challenger</string>
+    <string name="settingsExplorerTitle">Explorer settings</string>
+    <string name="settingsChallengerTitle">Challenger settings</string>
+    <string name="settingsCommonTitle">Common settings</string>
+
+    <!-- Dimension specific integer data -->
+    <string name="textContentDefaultFontSize">16</string>
+    <string name="portraitDataElementWidth">40</string>
+    <string name="portraitDataElementHeight">37</string>
+    <string name="portraitDataTextSize">20</string>
+    <string name="landscapeChallengerDataElementWidth">52</string>
+    <string name="landscapeChallengerDataElementHeight">37</string>
+    <string name="landscapeChallengerDataTextSize">28</string>
+    <string name="landscapeExplorerDataElementWidth">60</string>
+    <string name="landscapeExplorerDataElementHeight">37</string>
+    <string name="landscapeExplorerDataTextSize">28</string>
+    <string name="scoreMessageTextSize">16</string>
+    <string name="rate_title">Rate Vision Expand</string>
+    <string name="rate_explanation">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="rate_later">Later</string>
+    <string name="rate_never">No thanks</string>
+    <string name="itemProgressText">Progress</string>
+    <string name="itemScoreText">Score</string>
+    <string name="btnHelp">Help</string>
+
+</resources>

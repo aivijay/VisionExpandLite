@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fontName">
+        <item name="helvetica">Helvetica</item>
+        <item name="arial">Arial</item>
+        <item name="times_roman">Times Roman</item>
+        <item name="courier">Courier</item>
+    </string-array>
+    <string-array name="fontSize">
+        <item name="18">Small</item>
+        <item name="24">Normal</item>
+        <item name="30">Large</item>
+        <item name="34">Huge</item>
+    </string-array>
+    <string-array name="flashPeriod">
+        <item name="2000">2 seconds</item>
+        <item name="1000">1 second</item>
+        <item name="500">500 milli second</item>
+        <item name="450">450 milli second</item>
+    </string-array>
+    <string-array name="charactersCount">
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+    </string-array>
+    <string-array name="pairDigitsCount">
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="rowsCount">
+        <item name="1">1</item>
+    </string-array>
+    <string-array name="fontNameValues">
+        <item name="helvetica">Helvetica</item>
+        <item name="arial">Arial</item>
+        <item name="times_roman">Times Roman</item>
+        <item name="courier">Courier</item>
+    </string-array>
+    <string-array name="fontSizeValues">
+        <item name="18">18</item>
+        <item name="24">24</item>
+        <item name="30">30</item>
+        <item name="34">34</item>
+    </string-array>
+    <string-array name="flashPeriodValues">
+        <item name="2000">2000</item>
+        <item name="1000">1000</item>
+        <item name="500">500</item>
+        <item name="450">450</item>
+    </string-array>
+    <string-array name="charactersCountValues">
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+    </string-array>
+    <string-array name="pairDigitsCountValues">
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="rowsCountValues">
+        <item name="1">1</item>
+    </string-array>
+    <string-array name="drillAData">
+        <item>"F              M              E"</item>
+        <item>"W              L              G"</item>
+        <item>"O              J              N"</item>
+        <item>"S              V              B"</item>
+        <item>"P              G              J"</item>
+        <item>"A              E              N"</item>
+        <item>"R              G              Y"</item>
+        <item>"C              W              J"</item>
+        <item>"L              Q              C"</item>
+        <item>"V              R              Y"</item>
+        <item>"B              M              V"</item>
+        <item>"S              G              J"</item>
+        <item>"B              O              K"</item>
+        <item>"Q              T              L"</item>
+        <item>"X              U              I"</item>
+        <item>"S              K              D"</item>
+        <item>"M              P              E"</item>
+        <item>"K              J              G"</item>
+        <item>"C              T              L"</item>
+        <item>"E              J              G"</item>
+        <item>"A              K              M"</item>
+        <item>"W              U              P"</item>
+        <item>"M              U              G"</item>
+        <item>"B              H              G"</item>
+        <item>"S              C              K"</item>
+        <item>"V              K              E"</item>
+        <item>"W              J              M"</item>
+        <item>"O              T              J"</item>
+        <item>"J              A              L"</item>
+        <item>"E              M              V"</item>
+    </string-array>
+    <string-array name="drillBData">
+        <item>"L               CSB               K"</item>
+        <item>"M               YPD               V"</item>
+        <item>"E               PGL               M"</item>
+        <item>"X               GMI               P"</item>
+        <item>"C               RKG               L"</item>
+        <item>"W               CYH               P"</item>
+        <item>"E               DNL               Q"</item>
+        <item>"A               DJM               L"</item>
+        <item>"B               SKH               L"</item>
+        <item>"V               TKF               M"</item>
+        <item>"C               MRI               D"</item>
+        <item>"B               MRC               T"</item>
+        <item>"O               SLO               V"</item>
+        <item>"T               AMG               Y"</item>
+        <item>"O               PVB               J"</item>
+        <item>"W               MGI               L"</item>
+        <item>"B               KCD               W"</item>
+        <item>"K               GBN               R"</item>
+        <item>"B               AKT               J"</item>
+        <item>"V               MTO               L"</item>
+        <item>"W               GDI               X"</item>
+        <item>"R               UVD               Y"</item>
+        <item>"B               RPL               M"</item>
+        <item>"D               YFO               Z"</item>
+        <item>"T               NFI               U"</item>
+        <item>"J               LDN               M"</item>
+        <item>"E               OFN               P"</item>
+        <item>"D               IVN               D"</item>
+        <item>"W               KTP               B"</item>
+        <item>"P               IMV               Q"</item>
+    </string-array>
+    <string-array name="drillCData">
+        <item>"T               J               M               G               E"</item>
+        <item>"P               S               B               N               R"</item>
+        <item>"C               E               L               Y               K"</item>
+        <item>"X               D               W               A               Z"</item>
+        <item>"L               Y               V               D               C"</item>
+        <item>"K               P               W               A               X"</item>
+        <item>"X               G               W               K               M"</item>
+        <item>"Z               Y               I               P               M"</item>
+        <item>"W               D               X               B               M"</item>
+        <item>"Z               T               I               L               B"</item>
+        <item>"A               U               T               K               Y"</item>
+        <item>"V               M               S               R               K"</item>
+        <item>"K               T               D               X               C"</item>
+        <item>"Q               G               J               I               L"</item>
+        <item>"A               J               E               I               R"</item>
+        <item>"B               D               X               L               C"</item>
+        <item>"S               G               U               R               K"</item>
+        <item>"C               H               T               D               L"</item>
+        <item>"G               L               I               P               K"</item>
+        <item>"N               R               D               H               I"</item>
+        <item>"W               G               Q               K               P"</item>
+        <item>"J               Y               K               M               N"</item>
+        <item>"O               L               G               P               D"</item>
+        <item>"T               K               I               L               P"</item>
+        <item>"Z               D               T               U               L"</item>
+        <item>"Y               K               N               W               Z"</item>
+        <item>"U               M               D               S               C"</item>
+        <item>"S               H               K               T               L"</item>
+        <item>"B               D               R               F               E"</item>
+        <item>"H               I               L               M               P"</item>
+        <item>"Z               B               X               N               A"</item>
+        <item>"X               G               B               B               U"</item>
+        <item>"W               T               V               D               W"</item>
+        <item>"D               R               Z               S               Y"</item>
+        <item>"M               C               C               P               I"</item>
+        <item>"K               M               A               Q               D"</item>
+        <item>"C               R               U               E               W"</item>
+        <item>"M               O               Q               F               Y"</item>
+        <item>"C               M               W               T               R"</item>
+        <item>"X               V               C               B               T"</item>
+        <item>"A               E               R               I               O"</item>
+        <item>"G               U               O               R               A"</item>
+    </string-array>
+    <string-array name="drillDData">
+        <item>"V               U              SBN              E               L"</item>
+        <item>"S               I              CKR              S               L"</item>
+        <item>"X               R              DLT              C               Y"</item>
+        <item>"P               G              RKY              V               J"</item>
+        <item>"B               F              LDI              P               H"</item>
+        <item>"Q               Y              SJR              J               T"</item>
+        <item>"I               G              LRI              D               P"</item>
+        <item>"F               G              SYT              J               W"</item>
+        <item>"R               T              RTL              C               S"</item>
+        <item>"Z               F              GLT              B               R"</item>
+        <item>"Q               D              GKY              L               G"</item>
+        <item>"Z               P              TIL              V               M"</item>
+        <item>"L               M              VYT              K               E"</item>
+        <item>"W               A              FKY              N               C"</item>
+        <item>"A               S              MSL              W               Z"</item>
+        <item>"Q               D              GKI              Z               B"</item>
+        <item>"N               I              OSD              L               W"</item>
+        <item>"P               L              WLT              D               F"</item>
+        <item>"T               G              BMN              S               T"</item>
+        <item>"B               R              BCN              X               K"</item>
+        <item>"P               J              SCB              W               L"</item>
+        <item>"S               G              YTR              I               H"</item>
+        <item>"K               H              YGT              G               V"</item>
+        <item>"I               H              RJF              H               B"</item>
+        <item>"X               G              UKV              F               H"</item>
+        <item>"A               X              BJT              T               U"</item>
+        <item>"D               B              RKT              V               S"</item>
+        <item>"M               B              FKR              K               L"</item>
+        <item>"O               C              VIJ              F               Y"</item>
+        <item>"S               K              TLY              C               Z"</item>
+        <item>"X               B              CUW              A               L"</item>
+        <item>"Q               A              XNK              C               P"</item>
+        <item>"I               X              TSP              D               M"</item>
+        <item>"P               A              ROT              W               S"</item>
+        <item>"E               T              ATU              X               O"</item>
+        <item>"L               P              CWB              N               Z"</item>
+        <item>"A               X              VML              B               O"</item>
+        <item>"Q               Y              NOP              N               M"</item>
+        <item>"X               B              MTN              K               L"</item>
+        <item>"I               V              OUA              M               V"</item>
+        <item>"T               V              NXM              C               P"</item>
+        <item>"N               A              BXY              N               O"</item>
+    </string-array>
+    <string-array name="drillEData">
+        <item>"H           F           D           BAC           E           G           I"</item>
+        <item>"C           S           P           URL           N           B           N"</item>
+        <item>"M           D           R           TYH           B           M           S"</item>
+        <item>"L           S           K           DTB           X           J           W"</item>
+        <item>"P           A           F           GTW           Q           M           D"</item>
+        <item>"T           K           F           EXB           U           M           W"</item>
+        <item>"T           N           D           RWS           C           I           A"</item>
+        <item>"R           J           E           PQT           X           P           M"</item>
+        <item>"L           E           G           JWQ           U           I           N"</item>
+        <item>"S           J           D           VBN           Z           Q           T"</item>
+        <item>"M           E           O           IUK           L           A           P"</item>
+        <item>"L           B           W           SAI           F           B           C"</item>
+        <item>"F           T           Q           HLS           C           V           M"</item>
+        <item>"C           M           E           SBC           D           H           E"</item>
+        <item>"M           R           W           QUM           L           D           J"</item>
+        <item>"A           D           Q           GXB           M           K           L""</item>
+        <item>"R           E           S           SCN           F           S           D"</item>
+        <item>"L           B           D           TYZ           V           S           L"</item>
+        <item>"B           R           S           QUI           E           P           W"</item>
+        <item>"W           L           T           HKX           A           T           H"</item>
+        <item>"K           L           T           BZS           W           W           L"</item>
+        <item>"C           B           S           NBC           A           B           C"</item>
+        <item>"K           L           R           UZA           M           F           E"</item>
+        <item>"H           P           U           QUT           V           E           B"</item>
+        <item>"C           T           G           BMD           R           M           A"</item>
+        <item>"E           X           B           CDJ           F           H           Q"</item>
+        <item>"B           N           J           FWQ           T           P           M"</item>
+        <item>"M           S           F           ACH           R           M           S"</item>
+        <item>"P           Q           K           LSG           A           W           E"</item>
+    </string-array>
+
+</resources>

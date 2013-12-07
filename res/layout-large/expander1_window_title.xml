@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/titleStandardPadding"
+        android:src="@drawable/vision_expand_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/titleStandardPadding"
+        android:text="@string/expanderOneTitle"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/appTitleFontSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/progressStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/titleStandardPadding"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/progressStatusTextSize"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/scoreStatusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/scoreStatusTextSize"
+        android:textStyle="normal" />
+
+</LinearLayout>

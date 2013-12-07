@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Expander2DataText"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@drawable/expander2_text"
+        android:drawablePadding="2dip"
+        android:paddingLeft="1dip"
+        android:paddingRight="1dip" />

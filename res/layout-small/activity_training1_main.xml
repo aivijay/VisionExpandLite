@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/training1ContentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnTraining"
+            style="@style/ButtonText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_green"
+            android:onClick="onClickTraining"
+            android:text="@string/trainingStart" />
+
+        <com.google.ads.AdView
+            xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/adViewSmart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            googleads:adSize="SMART_BANNER"
+            googleads:adUnitId="@string/admob_id" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<!-- Parent Layout With Vertical Orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical" >
+
+    <!-- 
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="2dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:paddingTop="10dip"
+        android:text="" />
+	-->
+	
+    <include layout="@layout/expander1_row1" />
+
+    <include layout="@layout/expander1_row2" />
+
+    <include layout="@layout/landscape_2rows_expander1_numberpad" />
+
+    <com.google.ads.AdView
+        xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adViewSmartforExpander1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        googleads:adSize="SMART_BANNER"
+        googleads:adUnitId="@string/admob_id" />
+
+</LinearLayout>

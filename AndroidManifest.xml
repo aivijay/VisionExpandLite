@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bcsoft.estx.visionexpand"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!--
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+    -->
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vision_expand_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait" />
+
+        <!-- Splash screen -->
+        
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+       
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.VisionExpandMainActivity"
+            android:label="@string/expander_one_title"
+            android:parentActivityName="com.bcsoft.estx.visionexpand.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="com.bcsoft.estx.visionexpand.PARENT_ACTIVITY"
+                android:value="com.bcsoft.estx.visionexpand.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.VisionExpandTwoMainActivity"
+            android:label="@string/expander_two_title"
+            android:parentActivityName="com.bcsoft.estx.visionexpand.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="com.bcsoft.estx.visionexpand.PARENT_ACTIVITY"
+                android:value="com.bcsoft.estx.visionexpand.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.VisionTestCompleteActivity"
+            android:label="@string/title_activity_vision_test_one_complete_message"
+            android:parentActivityName="com.bcsoft.estx.visionexpand.VisionExpandMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="com.bcsoft.estx.visionexpand.PARENT_ACTIVITY"
+                android:value="com.bcsoft.estx.visionexpand.VisionExpandMainActivity" />
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.VisionExpandTwoTestCompleteActivity"
+            android:label="@string/title_activity_vision_test_two_complete_message"
+            android:parentActivityName="com.bcsoft.estx.visionexpand.VisionExpandTwoMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="com.bcsoft.estx.visionexpand.PARENT_ACTIVITY"
+                android:value="com.bcsoft.estx.visionexpand.VisionExpandTwoMainActivity" />
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.UserSettingActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.bcsoft.estx.visionexpand.VisionExpandMainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="com.bcsoft.estx.visionexpand.PARENT_ACTIVITY"
+                android:value="com.bcsoft.estx.visionexpand.VisionExpandMainActivity" />
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.DrillsActivity"
+            android:label="@string/title_activity_drills" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.DrillAActivity"
+            android:label="@string/title_activity_drill_a" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.DrillBActivity"
+            android:label="@string/title_activity_drill_b" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.DrillCActivity"
+            android:label="@string/title_activity_drill_c" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.DrillDActivity"
+            android:label="@string/title_activity_drill_d" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.DrillEActivity"
+            android:label="@string/title_activity_drill_e" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.Expander1MainActivity"
+            android:label="@string/title_activity_expander1_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.TrainingSelectActivity"
+            android:label="@string/title_activity_training_select"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.Training1MainActivity"
+            android:label="@string/title_activity_training1_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bcsoft.estx.visionexpand.Training2MainActivity"
+            android:label="@string/title_activity_training2_main"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

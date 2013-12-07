@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="@dimen/buttonLayoutWidth"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/appTitle"
+                style="@style/TitleText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/veCapTitle" />
+
+            <TextView
+                android:id="@+id/appType"
+                style="@style/AppTypeText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/veAppType" />
+
+            <TextView
+                android:id="@+id/appSlogan"
+                style="@style/AppSloganText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/slogan"
+                android:textSize="@dimen/appSloganFontSize" />
+
+            <Button
+                android:id="@+id/btnTraining"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_green"
+                android:onClick="onClickTraining"
+                android:padding="@dimen/mainButtonPadding"
+                android:text="@string/training" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/paddingBetweenButtons" />
+
+            <Button
+                android:id="@+id/btnTraining2"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_green"
+                android:onClick="onClickTraining2"
+                android:padding="@dimen/mainButtonPadding"
+                android:text="@string/training2" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/paddingBetweenButtons" />
+
+            <!--
+    <Button
+        android:id="@+id/btnDrills"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_blue"
+        android:onClick="onClickDrills"
+        android:text="@string/drills" />
+            -->
+
+            <Button
+                android:id="@+id/btnSettings"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_red"
+                android:onClick="onClickSettings"
+                android:padding="@dimen/mainButtonPadding"
+                android:text="@string/settings" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/paddingBetweenButtons" />
+
+            <Button
+                android:id="@+id/btnHelp"
+                style="@style/ButtonText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_orange"
+                android:onClick="onClickHelp"
+                android:padding="@dimen/mainButtonPadding"
+                android:text="@string/help" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/paddingBetweenButtons" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.ads.AdView
+        xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adViewSmart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        googleads:adSize="SMART_BANNER"
+        googleads:adUnitId="@string/admob_id" />
+
+</RelativeLayout>

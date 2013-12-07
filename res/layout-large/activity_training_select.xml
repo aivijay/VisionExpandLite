@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btnTraining"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_green"
+        android:onClick="onClickTraining"
+        android:text="@string/training" />
+
+    <Button
+        android:id="@+id/btnTraining2"
+        style="@style/ButtonText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_green"
+        android:onClick="onClickTraining2"
+        android:text="@string/training2" />
+
+</LinearLayout>

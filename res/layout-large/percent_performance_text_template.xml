@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/performanceText"
+    style="@style/PerformanceText"
+    android:layout_width="500dp"
+    android:layout_height="wrap_content"
+    android:drawablePadding="4dip"
+    android:paddingLeft="80dip"
+    android:paddingRight="80dip" />

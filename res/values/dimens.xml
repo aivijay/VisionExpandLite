@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appTitleFontSize">18dp</dimen>
+    <dimen name="appSloganFontSize">11dp</dimen>
+    <dimen name="buttonTextSize">20dp</dimen>
+    <dimen name="buttonLayoutWidth">250dp</dimen>
+    <dimen name="textSize28">28dp</dimen>
+    <dimen name="textSize30">30dp</dimen>
+    <dimen name="textSize12">12dp</dimen>
+    <dimen name="textSize55">55dp</dimen>
+    <dimen name="textSize24">24dp</dimen>
+    <dimen name="windowTitleSize">38dp</dimen>
+    <dimen name="titleStandardPadding">5dp</dimen>
+    <dimen name="progressStatusTextSize">12dp</dimen>
+    <dimen name="scoreStatusTextSize">12dp</dimen>
+    <dimen name="mainButtonPadding">5dp</dimen>
+    <dimen name="paddingAfterTitle">20dp</dimen>
+    <dimen name="textContentDefaultFontSize">16sp</dimen>
+</resources>
